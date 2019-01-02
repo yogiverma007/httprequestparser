@@ -1,8 +1,11 @@
 # http request parser
-httprequestparser is lua based parser. http parser is module for parsing http requests.
-Http Parser is written entirely in lua. 
+httprequestparser is lua based parser. http parser is module for parsing http requests
+Http Parser is written entirely in lua.
 
 Users of this module can get http request data from for http request like request payload, headers, Method, URI, Host.
+
+Note:
+    Supports haproxy only for now.
 
 ----
 
@@ -56,6 +59,7 @@ Documentation:
 ### Todos
 
  - Convert Http request data to object in terms of object oriented paradigm.
+ - Support for nginx server.
  
  
  License
