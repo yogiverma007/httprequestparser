@@ -47,10 +47,10 @@ Documentation:
 - httprequestparser.getRequestBodyAsString(requestBodyBuffer)
     returns request body as plain string from http request buffer.
     
-- httprequestparser.handleJsonBody(requesBodyBuffer)
+- httprequestparser.handleJsonBody(requestBodyBuffer)
     returns Json Object if request body is in Json format. Can call dkjson modules function on this object.
     
-- httprequestparser.handleXMLBody(requesBodyBuffer)
+- httprequestparser.handleXMLBody(requestBodyBuffer)
     returns XML Object if request body is in XML format. Can call lxp.lom modules function on this object.
     
 ```
