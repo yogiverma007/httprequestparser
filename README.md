@@ -20,37 +20,37 @@ If request payload is xml format then get XML object or if request payload is js
 
 Documentation:
 ```sh
-- httpparserJsonXml.getContentType(requestBodyBuffer):
+- httprequestparser.getContentType(requestBodyBuffer):
     fetches Content-Type header from request body.
     
-- httpparserJsonXml.getAccept(requestBodyBuffer)
+- httprequestparser.getAccept(requestBodyBuffer)
     fetches Accept header from request body.
     
-- httpparserJsonXml.getHost(requestBodyBuffer)
+- httprequestparser.getHost(requestBodyBuffer)
     fetches host from request body.
     
-- httpparserJsonXml.getAllHeaders(requestBodyBuffer)
+- httprequestparser.getAllHeaders(requestBodyBuffer)
     fetches All headers from request body in table form.
     
-- httpparserJsonXml.getHttpMethod(requestBodyBuffer)
+- httprequestparser.getHttpMethod(requestBodyBuffer)
     fetches Http method from request body.
     
-- httpparserJsonXml.getRequestURI(requestBodyBuffer)
+- httprequestparser.getRequestURI(requestBodyBuffer)
     fetches http request uri from request body.
     
-- httpparserJsonXml.isXMLBody(requestBodyBuffer)
+- httprequestparser.isXMLBody(requestBodyBuffer)
     returns true or false if request body is in xml format
     
-- httpparserJsonXml.isJSONBody(requestBodyBuffer)
+- httprequestparser.isJSONBody(requestBodyBuffer)
     returns true or false if request body is in json format
     
-- httpparserJsonXml.getRequestBodyAsString(requestBodyBuffer)
+- httprequestparser.getRequestBodyAsString(requestBodyBuffer)
     returns request body as plain string from http request buffer.
     
-- httpparserJsonXml.handleJsonBody(requesBodyBuffer)
+- httprequestparser.handleJsonBody(requesBodyBuffer)
     returns Json Object if request body is in Json format. Can call dkjson modules function on this object.
     
-- httpparserJsonXml.handleXMLBody(requesBodyBuffer)
+- httprequestparser.handleXMLBody(requesBodyBuffer)
     returns XML Object if request body is in XML format. Can call lxp.lom modules function on this object.
     
 ```
