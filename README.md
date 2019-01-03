@@ -37,6 +37,9 @@ Documentation:
     
 - httprequestparser.getRequestURI(requestBodyBuffer)
     fetches http request uri from request body.
+
+- httprequestparser.findElementFromRequestBody(requestBodyBuffer, element)
+    fetches any element from request body.
     
 - httprequestparser.isXMLBody(requestBodyBuffer)
     returns true or false if request body is in xml format
