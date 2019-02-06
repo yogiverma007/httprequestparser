@@ -4,7 +4,7 @@ source = {
    url = "git://github.com/yogiverma007/httprequestparser"
 }
 description = {
-  summary = "Yogesh Verma's http request parser module for Lua",
+  summary = "http request parser written in lua for json, xml.",
   detailed = [[
   httprequestparser is module for parsing http request. Http Parser written entirely in lua. Can get http request data for http request like request payload, headers, Method, URI, Host. If request payload is xml format then get XML object or if request payload is json format then get JSON object by functions provided.
    ]],
